@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.nav-css {
+    position: fixed;
+}
+
+.bg-gradient-radial {
+    background-image: radial-gradient(var(--tw-gradient-stops));
+}
