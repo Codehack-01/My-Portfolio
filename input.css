@@ -13,3 +13,9 @@
 .logo img{
     width: 45px;
 }
+
+.padding {
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+    padding: 1rem 0rem 1rem 0rem;
+}
