@@ -802,9 +802,9 @@ video {
   cursor: pointer;
   width: 24px;
   height: 24px;
-  /* transition: 0.25s; */
+  transition: 0.25s;
   position: relative;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .hamburger span {
