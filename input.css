@@ -91,13 +91,20 @@
     right: 0;
     transform: translateY(14px);
 } 
+
+/* .hamburger-bottom {
+    width: 50%;
+    left: auto;
+    right: 0;
+    transform: translateY(100%, 50px);
+}  */
  
-.open {
+/* .open {
     transform: rotate(90deg);
     transform: translateY(0px);
-}
+} */
 
-.open .hamburger-top{
+/* .open .hamburger-top{
     transform: rotate(45deg) translateY(6px) translate(6px);
     
 }
@@ -110,4 +117,40 @@
 .open .hamburger-bottom{
     transform: rotate(-45deg) translateY(6px) translate(-6px);
     
+} */
+
+/* .open .hamburger-top{
+    transform: rotate(-45deg)  translateY(6px) translate(6px);
+    
 }
+
+
+
+.open .hamburger-bottom{
+    transform:rotate(410deg) translateX(10px);
+    
+}
+
+.open .hamburger-middle{
+    transform:rotate(45deg)  translateY(6px);
+    
+} */
+
+.open .hamburger-top{
+    transform: rotate(-45deg)  translateY(6px) translate(6px);
+    
+}
+
+
+
+
+
+.open .hamburger-middle{
+    transform:rotate(45deg)  translateY(6px);
+    
+}
+
+/* .open .hamburger-bottom{
+    transform:rotate(45deg)  translateY(-6px) translate(-6px);
+    
+} */

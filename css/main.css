@@ -870,22 +870,62 @@ video {
   transform: translateY(14px);
 }
 
-.open {
-  transform: rotate(90deg);
-  transform: translateY(0px);
-}
+/* .hamburger-bottom {
+    width: 50%;
+    left: auto;
+    right: 0;
+    transform: translateY(100%, 50px);
+}  */
 
-.open .hamburger-top{
-  transform: rotate(45deg) translateY(6px) translate(6px);
+/* .open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+} */
+
+/* .open .hamburger-top{
+    transform: rotate(45deg) translateY(6px) translate(6px);
+    
 }
 
 .open .hamburger-middle{
-  display: none;
+    display: none;
+    
 }
 
 .open .hamburger-bottom{
-  transform: rotate(-45deg) translateY(6px) translate(-6px);
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+    
+} */
+
+/* .open .hamburger-top{
+    transform: rotate(-45deg)  translateY(6px) translate(6px);
+    
 }
+
+
+
+.open .hamburger-bottom{
+    transform:rotate(410deg) translateX(10px);
+    
+}
+
+.open .hamburger-middle{
+    transform:rotate(45deg)  translateY(6px);
+    
+} */
+
+.open .hamburger-top{
+  transform: rotate(-45deg)  translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle{
+  transform:rotate(45deg)  translateY(6px);
+}
+
+/* .open .hamburger-bottom{
+    transform:rotate(45deg)  translateY(-6px) translate(-6px);
+    
+} */
 
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
