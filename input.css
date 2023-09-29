@@ -46,14 +46,14 @@
 .hamburger .hamburger-top {
     width: 50%;
     transform: translate(-100%, -50px);
-} 
+} */
 
-.hamburger .hamburger-bottom{
+/* .hamburger-bottom {
     width: 50%;
     left: auto;
     right: 0;
-    transform: translate(0, 40px);
-} */
+    transform: translateY(14px);
+}  */
 
 .hamburger-top,
 .hamburger-middle,
@@ -68,10 +68,27 @@
     transition: all 0.5s;
 }
 
+.hamburger-top {
+    width: 50%;
+    /* left: auto;
+    right: 0; */
+    transform: translateY(-100%, -50px);
+} 
+
 .hamburger-middle {
     transform: translateY(7px);
 } 
+/* .hamburger-middle {
+    width: 75%;
+    left: auto;
+    right: 0;
+    transform: translateY(7px);
+}  */
+
 .hamburger-bottom {
+    width: 50%;
+    left: auto;
+    right: 0;
     transform: translateY(14px);
 } 
  
