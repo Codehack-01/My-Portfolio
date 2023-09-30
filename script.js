@@ -1,8 +1,8 @@
 window.addEventListener('scroll', () => {
-  const navbar = document.getElementById('navbar');
+  const header = document.getElementById('navbar');
   if (window.scrollY > 0) {
     navbar.classList.remove('bg-transparent');
-    navbar.classList.add('z-50 bg-black/70 backdrop-blur-md backdrop-filter'); // Change to the desired background color
+    navbar.classList.add('z-50', 'bg-black/70', 'backdrop-blur-md', 'backdrop-filter'); // Change to the desired background color
   } else {
     navbar.classList.remove('z-50', 'bg-black/70', 'backdrop-blur-md', 'backdrop-filter');
     navbar.classList.add('bg-transparent');
