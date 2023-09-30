@@ -4,7 +4,7 @@ window.addEventListener('scroll', () => {
     navbar.classList.remove('bg-transparent');
     navbar.classList.add('bg-black/70', 'backdrop-blur-md', 'backdrop-filter'); // Change to the desired background color
   } else {
-    navbar.classList.remove('bg-black/70', 'backdrop-blur-md', 'backdrop-filter');
+    navbar.classList.remove('bg-black/70 backdrop-blur-md backdrop-filter');
     navbar.classList.add('bg-transparent');
   }
 });
