@@ -29,8 +29,8 @@
 /* Hamburger */
 .hamburger {
     cursor: pointer;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     transition: 0.25s;
     position: relative;
     /* margin: 0; */
@@ -67,7 +67,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 30px;
+    width: 35px;
     height: 3px;
     background: #fff;
     transform: rotate(0);
