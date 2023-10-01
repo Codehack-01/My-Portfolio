@@ -112,6 +112,59 @@
     
 }
 
+@keyframes nav_burst-in {
+    0% {
+        border-radius: 100px 0 100px 100px;
+        padding: 0;
+        z-index: -10;
+        opacity: 0;
+        background-color: #3b82f6;
+    }
+
+    1% {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px 0 100px 100px;
+        opacity: .5;
+    }
+
+    100% {
+        width: 100%;
+        height: max-content;
+        top: 0;
+        right: 0;
+        padding: 6.5rem 2.5rem;
+        border-radius: 0;
+        z-index: 9;
+        opacity: 1;
+        transform: scale(1);
+        background-color: #1d4ed8;
+    }
+}
+
+.nav_showcase {
+    animation: nav_burst-in  .55s ease-in-out forwards;
+}
+
+
+.menulinks {
+    gap: 3.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    /* width: 30px;
+    height: 30px; */
+    padding: 0;
+    border-radius: 100px 0 100px 100px;
+    /* z-index: -10; */
+    opacity: 0;
+    overflow: hidden;
+    transform-origin: top right;
+    transform: scale(0);
+    display: flex;
+}
 /* .hamburger .open::after {
     content: "";
     position: absolute;
