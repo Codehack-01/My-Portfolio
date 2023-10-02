@@ -116,7 +116,7 @@ h2 {
         /* background: #fff; */
     }
 
-    .css-text2 {
+    /* .css-text2 {
         font-family: 'Oxanium', cursive;
         font-style: normal;
         color: transparent;
@@ -127,10 +127,10 @@ h2 {
         /* border: 0;
         margin: 0;
         padding: 0;
-        outline: none; */
+        outline: none; *
         font-size: 3.5rem;
         font-weight: 800;
-    }
+    } */
 }
 
 @keyframes wave {
