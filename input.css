@@ -6,9 +6,12 @@
 body {
     /* font-family: 'Satoshi', sans-serif; */
     font-family: 'Oxanium', cursive;
-    /* font-family: 'Kumbh Sans', sans-serif; */
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
+.css-text {
+    font-family: 'Oxanium', cursive;
+}
 /* font-family: 'Satoshi', sans-serif; */
 .nav-css {
     position: fixed;
