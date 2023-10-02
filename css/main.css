@@ -715,16 +715,12 @@ video {
   padding-right: 1.5rem;
 }
 
-.pt-2 {
-  padding-top: 0.5rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .text-left {
@@ -734,15 +730,6 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .font-medium {
@@ -792,8 +779,24 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
 }
 
+.css-text2 {
+  font-family: 'Oxanium', cursive;
+  font-style: normal;
+  color: transparent;
+  -webkit-text-stroke: 0.125rem #fff;
+  position: relative;
+  letter-spacing: 0px;
+  line-height: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-size: 4rem;
+}
+
 .css-text {
   font-family: 'Oxanium', cursive;
+  font-style: normal;
 }
 
 /* font-family: 'Satoshi', sans-serif; */
@@ -1239,10 +1242,5 @@ body {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 }

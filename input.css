@@ -9,8 +9,26 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+
+.css-text2 {
+    font-family: 'Oxanium', cursive;
+    font-style: normal;
+    color: transparent;
+    -webkit-text-stroke: 0.125rem #fff;
+    position: relative;
+    letter-spacing: 0px;
+    line-height: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 4rem;
+}
+
 .css-text {
     font-family: 'Oxanium', cursive;
+    font-style: normal;
+    
 }
 /* font-family: 'Satoshi', sans-serif; */
 .nav-css {
