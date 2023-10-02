@@ -72,7 +72,7 @@ body {
     
 }
 
-.peace[_ngcontent-xir-c19] {
+.peace {
     display: inline-block;
     animation: wave 5s ease-in-out 3s infinite;
     transform-origin: bottom;
