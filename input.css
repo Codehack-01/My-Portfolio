@@ -101,6 +101,22 @@ h2 {
         transition: background .35s ease-in-out;
         /* background: #fff; */
     }
+
+    .css-text2 {
+        font-family: 'Oxanium', cursive;
+        font-style: normal;
+        color: transparent;
+        -webkit-text-stroke: 0.1rem #fff;
+        position: relative;
+        letter-spacing: 0px;
+        line-height: 100%;
+        /* border: 0;
+        margin: 0;
+        padding: 0;
+        outline: none; */
+        font-size: 3rem;
+        font-weight: 800;
+    }
 }
 
 @keyframes wave {
