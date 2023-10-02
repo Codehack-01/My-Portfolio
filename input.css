@@ -6,6 +6,7 @@
 body {
     /* font-family: 'Satoshi', sans-serif; */
     font-family: 'Oxanium', cursive;
+    /* font-family: 'Kumbh Sans', sans-serif; */
 }
 
 /* font-family: 'Satoshi', sans-serif; */
@@ -48,8 +49,34 @@ body {
     }
 }
 
+@keyframes wave {
+    0% {
+        transform: rotate(-15deg);
+    }
+    
+    5% {
+        transform: rotate(30deg);
+    }
+    
+    10% {
+        transform: rotate(-15deg);
+    }
+    
+    15% {
+        transform: rotate(0);
+    }
+    
+    100% {
+        transform: rotate(0);
+    }
+    
+}
 
-
+.peace[_ngcontent-xir-c19] {
+    display: inline-block;
+    animation: wave 5s ease-in-out 3s infinite;
+    transform-origin: bottom;
+}
 /* Hamburger */
 
 /* .hamburger {
