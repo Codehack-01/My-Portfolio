@@ -16,7 +16,7 @@
 
 .nav-padding {
     
-    padding: 1.2rem 0rem 1.2rem 0rem;
+    /* padding: 1.5rem 1rem 1.2rem 5rem; */
 }
 
 @media screen and  (max-width:768px) {
@@ -79,6 +79,7 @@
     width: 50%;
     transform-origin: -13% 24px;
     transition: all 0.5s;
+    background-color: #1d4ed8;
 }
 .nav-line {
     width: 100%;
@@ -109,7 +110,7 @@
 .open .hamburger-bottom{
     transform: translateY(-50%) rotate(-45deg);
     width: 80%;
-    
+    background-color: #fff;
 }
 
 @keyframes nav_burst-in {
@@ -150,18 +151,25 @@
     right: 0;
     flex-direction: column;
     align-items: flex-end;
-    /* width: 30px; 
-    height: 30px; 
-    padding: 0;
-    border-radius: 100px 0 100px 100px;
-    z-index: -10;
-    opacity: 0;
-    overflow: hidden;
-    transform-origin: top right;
-    transform: scale(0);
-    display: flex; */
+    
 }
 
+/* .menu-btn {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menu-btn .menu-text {
+    color: #3b82f6;
+    font-family: var(--font-1);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: .3s ease-out;
+    /* transform: translateY(100%);
+    opacity: 0; *
+} */
 
 
 /* .menulinks {
