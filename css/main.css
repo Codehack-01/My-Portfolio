@@ -746,11 +746,6 @@ video {
   color: hsl(227 12% 61% / var(--tw-text-opacity));
 }
 
-.text-slate-900 {
-  --tw-text-opacity: 1;
-  color: rgb(15 23 42 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -783,7 +778,7 @@ body {
   font-family: 'Oxanium', cursive;
   font-style: normal;
   color: transparent;
-  -webkit-text-stroke: 0.125rem #fff;
+  -webkit-text-stroke: 0.1rem #fff;
   position: relative;
   letter-spacing: 0px;
   line-height: 100%;
@@ -792,6 +787,11 @@ body {
   padding: 0;
   outline: none;
   font-size: 4rem;
+  font-weight: 800;
+}
+
+h2 {
+  display: block;
 }
 
 .css-text {
