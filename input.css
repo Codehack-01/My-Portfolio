@@ -274,6 +274,25 @@ h2 {
 .btn1 {
     margin-right: 20px;
 }
+
+.Gradient {
+    border-radius: 9999px;
+    width: 150px;
+    height: 150px;
+    background: #2164f3;
+    opacity: 0.5;
+    position: absolute;
+    /* top: 960px; */
+    filter: blur(70px);
+    bottom: 0;
+    right: 0;
+    
+}
+
+.Gradient ::before, ::after{
+    border-color: #e2e8f0;
+}
+
 /* .nav_showcase {
     animation: nav_burst-in  .55s ease-in-out forwards;
     gap: 3.5rem;
