@@ -854,6 +854,7 @@ body {
   /* font-family: 'Satoshi', sans-serif; */
   font-family: 'Oxanium', cursive;
   font-family: 'Kumbh Sans', sans-serif;
+  font-feature-settings: "kern";
 }
 
 .css-text2 {
@@ -1127,7 +1128,7 @@ h2 {
   background: #2164f3;
   opacity: 0.5;
   position: absolute;
-  /* top: 960px; */
+  top: 960px;
   filter: blur(70px);
   bottom: 0;
   right: 0;
