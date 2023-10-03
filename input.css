@@ -261,6 +261,11 @@ h2 {
     }
 }
 
+.greetings {
+    font-family: 'Oxanium', cursive;
+    font-weight: 600;
+}
+
 /* .nav_showcase {
     animation: nav_burst-in  .55s ease-in-out forwards;
     gap: 3.5rem;
