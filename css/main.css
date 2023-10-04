@@ -703,7 +703,7 @@ video {
 
 .bg-Blue {
   --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  background-color: rgb(139 92 246 / var(--tw-bg-opacity));
 }
 
 .bg-black {
@@ -823,7 +823,7 @@ video {
 
 .text-Blue {
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+  color: rgb(139 92 246 / var(--tw-text-opacity));
 }
 
 .text-darkGrayishBlue {
