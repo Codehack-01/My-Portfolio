@@ -1141,7 +1141,7 @@ h2 {
     padding: 0;
     z-index: -10;
     opacity: 0;
-    background-color: #3b82f6;
+    background-color: #93c5fd;
   }
 
   1% {
@@ -1162,7 +1162,7 @@ h2 {
     z-index: 9;
     opacity: 1;
     transform: scale(1);
-    background-color: #1d4ed8;
+    background-color: #3b82f6;
   }
 }
 
