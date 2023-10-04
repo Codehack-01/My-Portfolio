@@ -96,7 +96,7 @@ h2 {
     /* padding: 1.5rem 1rem 1.2rem 5rem; */
 }
 
-@media screen and  (max-width:768px) {
+@media screen and  (max-width:767px) {
     .nav-padding {
         padding: 1.5rem 0rem 1.5rem 0rem;
     }
@@ -169,7 +169,7 @@ h2 {
     } */
 }
 
-@media screen and  (min-width:769px) {
+@media screen and  (min-width:768px) {
     .img-container {
         width: 35rem;
         height: 40rem;
@@ -297,7 +297,7 @@ h2 {
         width: 50px;
         height: 50px;
         border-radius: 100px 0 100px 100px;
-        opacity: .5;
+        opacity: 0.5;
     }
 
     100% {
