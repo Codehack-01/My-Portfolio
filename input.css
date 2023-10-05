@@ -185,7 +185,7 @@ h2 {
         /* width: 100%;
         height: 100%; */
         border-radius:25rem 25rem 0 0;
-        border: 2px solid rgba(255,255,255,0.12);
+        border: 1px solid #374151;
         width: auto;
         height: auto;
         object-fit: cover;
@@ -208,7 +208,7 @@ h2 {
     
     .img-container img{
         border-radius:25rem 25rem 0 0;
-        border: 8px solid rgba(255,255,255,0.12);
+        border: 2px solid #374151;
         width: 100%;
         height: 100%;
         /* width: auto;
@@ -380,9 +380,9 @@ h2 {
     border-color: #e2e8f0;
 }
 
-.overlay-css{
+/* .overlay-css{
     border: #fff 1px solid;
-}
+} */
 
 /* .img-container {
     width: 35rem;
