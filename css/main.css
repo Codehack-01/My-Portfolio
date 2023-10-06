@@ -954,7 +954,7 @@ h2 {
     opacity: 0.5;
     position: absolute;
     /* top: 960px; */
-    /* top: 750px; */
+    top: 750px;
     filter: blur(70px);
     bottom: 0;
     right: 0;
