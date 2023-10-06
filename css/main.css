@@ -611,10 +611,6 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
-}
-
 .block {
   display: block;
 }
@@ -788,10 +784,6 @@ video {
   padding-top: 0.5rem;
 }
 
-.pt-32 {
-  padding-top: 8rem;
-}
-
 .pt-52 {
   padding-top: 13rem;
 }
@@ -960,7 +952,7 @@ h2 {
     height: 150px;
     background: #2164f3;
     opacity: 0.5;
-    position: absolute;
+    /* position: absolute; */
     /* top: 960px; */
     top: 750px;
     filter: blur(70px);
