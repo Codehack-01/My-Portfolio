@@ -866,7 +866,7 @@ body {
   position: relative;
   letter-spacing: 0px;
   line-height: 100%;
-  font-size: rem;
+  /* font-size: rem; */
   font-weight: 800;
 }
 
