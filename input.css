@@ -112,7 +112,7 @@ h2 {
         height: 150px;
         background: #2164f3;
         opacity: 0.5;
-        /* position: absolute; */
+        position: absolute;
         /* top: 960px; */
         top: 750px;
         filter: blur(70px);
