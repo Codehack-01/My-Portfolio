@@ -801,6 +801,11 @@ video {
   line-height: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -809,16 +814,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-medium {
@@ -882,23 +877,31 @@ body {
 
 .css-text3 {
   /* animation: shine 2s linear infinite alternate;; */
+  animation: shine 2s linear infinite alternate;
   font-family: 'Oxanium', cursive;
   font-style: normal;
   color: transparent;
   -webkit-text-stroke: 0.125rem #fff;
-  -webkit-mask-image: linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5));
-          mask-image: linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5));
-  /* mask-size: 200%;
+  -webkit-mask-image: linear-gradient(-75deg,rgba(0,0,0,.6) 30%,#000 50%,rgba(0,0,0,.6) 70%);
+          mask-image: linear-gradient(-75deg,rgba(0,0,0,.6) 30%,#000 50%,rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+          mask-size: 200%;
+  position: relative;
+  letter-spacing: 0px;
+  line-height: 100%;
+  /*mask-image: linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5)); 
+    mask-size: 200%;
     position: relative;
     letter-spacing: 0px;
-    line-height: 100%; */
-  /* font-size: rem; */
-  font-weight: 800;
-  /* background: linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5)); */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: unset;
+    line-height: 100%;
+    
+    font-size: rem; */
+  font-weight: 900;
+  /* background: linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: unset;*/
 }
 
 @keyframes shine {
