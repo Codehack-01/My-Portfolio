@@ -83,10 +83,7 @@ h2 {
     width: 45px;
 }
 
-.nav-padding {
-    
-    /* padding: 1.5rem 1rem 1.2rem 5rem; */
-}
+
 
 @media screen and  (max-width:767px) {
     .nav-padding {
