@@ -643,8 +643,16 @@ video {
   max-width: 28rem;
 }
 
+.max-w-screen-sm {
+  max-width: 480px;
+}
+
 .max-w-sm {
   max-width: 24rem;
+}
+
+.max-w-screen-xl {
+  max-width: 1440px;
 }
 
 .flex-col {
@@ -1163,6 +1171,19 @@ h2 {
   position: absolute;
   /* top: 960px; */
   filter: blur(70px);
+  bottom: 0;
+  right: 0;
+}
+
+.icon1-gradient {
+  border-radius: 9999px;
+  width: 30px;
+  height: 30px;
+  background: #22c55e;
+  opacity: 1;
+  /* position: absolute; */
+  /* top: 960px;*/
+  filter: blur(15px);
   bottom: 0;
   right: 0;
 }

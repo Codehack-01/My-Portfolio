@@ -342,6 +342,19 @@ h2 {
     
 } 
 
+.icon1-gradient {
+    border-radius: 9999px;
+    width: 30px;
+    height: 30px;
+    background: #22c55e;
+    opacity: 1;
+    /* position: absolute; */
+    /* top: 960px;*/ 
+    filter: blur(15px);
+    bottom: 0;
+    right: 0;
+} 
+
 .Gradient ::before, ::after{
     border-color: #e2e8f0;
 }
