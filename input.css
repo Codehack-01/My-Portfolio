@@ -355,6 +355,10 @@ h2 {
     right: 0;
 } 
 
+.icon1-gradient ::before, ::after{
+    border-color: #22c55e;
+}
+
 .Gradient ::before, ::after{
     border-color: #e2e8f0;
 }
