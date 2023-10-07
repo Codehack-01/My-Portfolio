@@ -385,6 +385,7 @@ h2 {
     background-color: #7ee787;
     filter: blur(18px);
     z-index: -1 !important;
+    transform: translateZ(0);
 }
 .icon i {
     color: #fff;
