@@ -1213,14 +1213,22 @@ h2 {
   top: 0;
   height: 100% !important;
   width: 100% !important;
+  /* height: 30px !important;
+    width: 30px !important; */
   background-color: #7ee787;
   filter: blur(10px);
   z-index: -1 !important;
   transform: translateZ(0);
 }
 
+.icon-padding {
+  padding: 10px;
+}
+
 .icon i {
   color: #fff;
+  /* height: 30px;
+    width: 30px; */
 }
 
 .Gradient ::before, ::after{
