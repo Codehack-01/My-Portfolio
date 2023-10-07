@@ -713,11 +713,6 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .bg-black\/50 {
   background-color: rgb(0 0 0 / 0.5);
 }
@@ -728,6 +723,11 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .from-white\/80 {
@@ -1005,22 +1005,23 @@ h2 {
     border-color: #e2e8f0;
   }
 
-  .icon1-gradient {
-    border-radius: 9999px;
-    width: 10px;
-    height: 10px;
-    background: #22c55e;
-    opacity: 1;
-    /* position: absolute; */
-    /* top: 960px;*/
-    filter: blur(30px);
-    bottom: 0;
-    right: 0;
-  }
-
-  .icon1-gradient ::before, ::after{
-    border-color: #22c55e;
-  }
+  /* .icon1-gradient {
+        border-radius: 9999px;
+        width: 15px;
+        height: 15px;
+        background: #22c55e;
+        opacity: 1;
+        /* position: absolute; *
+        /* top: 960px;*
+        filter: blur(30px);
+        bottom: 0;
+        right: 0;
+    } 
+    
+    .icon1-gradient ::before, ::after{
+        border-color: #22c55e;
+    }
+     */
 }
 
 @media screen and  (max-width:1150px) {
@@ -1189,21 +1190,36 @@ h2 {
   right: 0;
 }
 
-.icon1-gradient {
-  border-radius: 9999px;
-  width: 30px;
-  height: 30px;
-  background: #22c55e;
-  opacity: 1;
-  /* position: absolute; */
-  /* top: 960px;*/
-  filter: blur(15px);
-  bottom: 0;
-  right: 0;
-}
+/* .icon1-gradient {
+    border-radius: 9999px;
+    width: 30px;
+    height: 30px;
+    background: #22c55e;
+    opacity: 1;
+    /* position: absolute; *
+    /* top: 960px;*
+    filter: blur(15px);
+    bottom: 0;
+    right: 0;
+} 
 
 .icon1-gradient ::before, ::after{
-  border-color: #22c55e;
+    border-color: #22c55e;
+} */
+
+.icon1-gradient {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100% !important;
+  width: 100% !important;
+  background-color: #22c55e;
+  filter: blur(18px);
+  z-index: -1 !important;
+}
+
+.icon i {
+  color: #fff;
 }
 
 .Gradient ::before, ::after{
