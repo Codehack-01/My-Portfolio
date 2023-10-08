@@ -1216,7 +1216,7 @@ h2 {
   /* height: 30px !important;
     width: 30px !important; */
   background-color: #7ee787;
-  filter: blur(12px);
+  filter: blur(15px);
   z-index: -1 !important;
   transform: translateZ(0);
 }
