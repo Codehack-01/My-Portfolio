@@ -647,10 +647,6 @@ video {
   max-width: 24rem;
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -1234,6 +1230,10 @@ h2 {
   border-color: #e2e8f0;
 }
 
+.flex-items-center {
+  align-items: center !important;
+}
+
 .hover\:text-darkGrayishBlue:hover {
   --tw-text-opacity: 1;
   color: hsl(227 12% 61% / var(--tw-text-opacity));
@@ -1323,4 +1323,3 @@ h2 {
     line-height: 1;
   }
 }
-
