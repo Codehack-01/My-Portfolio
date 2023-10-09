@@ -1200,11 +1200,12 @@ h2 {
 }
 
 .icon-padding {
-  padding: 10px;
+  /* padding: 8px; */
 }
 
 .icon i {
   color: #fff;
+  font-size: 1.5rem;
   /* height: 30px;
     width: 30px; */
 }
