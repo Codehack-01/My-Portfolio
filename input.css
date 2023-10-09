@@ -376,6 +376,11 @@ h2 {
 .icon1-gradient ::before, ::after{
     border-color: #22c55e;
 } */
+.col-1{
+    width: 8.333333%;
+}
+
+
 .icon1-gradient {
     position: absolute;
     left: 0;
