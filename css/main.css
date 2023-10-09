@@ -578,10 +578,6 @@ video {
   top: 0px;
 }
 
-.z-0 {
-  z-index: 0;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -872,7 +868,6 @@ body {
 }
 
 .css-text3 {
-  /* animation: shine 2s linear infinite alternate;; */
   animation: shine 2s linear infinite alternate;
   font-family: 'Oxanium', cursive;
   font-style: normal;
@@ -885,13 +880,6 @@ body {
   position: relative;
   letter-spacing: 0px;
   line-height: 100%;
-  /*mask-image: linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5)); 
-    mask-size: 200%;
-    position: relative;
-    letter-spacing: 0px;
-    line-height: 100%;
-    
-    font-size: rem; */
   font-weight: 900;
   /* background: linear-gradient(to right bottom,#fff 30%,hsla(0,0%,100%,.5)); 
     -webkit-background-clip: text;
