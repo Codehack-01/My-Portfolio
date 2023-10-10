@@ -607,6 +607,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -1216,6 +1220,28 @@ h2 {
 
 .flex-items-center {
   align-items: center !important;
+}
+
+.background {
+  background: linear-gradient(#56d364, #2ea043,#0d1117);
+  transition-delay: 500ms;
+}
+
+.build-in-scale-top {
+  transition: transform .7s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: 0 0;
+}
+
+.home-campaign-git-line {
+  width: 2px;
+}
+
+.height-full {
+  height: 100% !important;
+}
+
+.rounded {
+  border-radius: 0.4rem;
 }
 
 .hover\:text-darkGrayishBlue:hover {
