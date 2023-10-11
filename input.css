@@ -525,3 +525,8 @@ h2 {
     line-height: 1.5;
     color: #4b5563;
 }
+
+.background2 {
+    /* height: 160px; */
+    background: linear-gradient(#0d1117, #ea6045, #ffa28b);
+}
