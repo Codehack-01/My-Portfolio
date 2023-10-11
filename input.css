@@ -191,7 +191,12 @@ h2 {
         width: auto;
         height: auto;
         object-fit: cover;
-    } 
+    }
+
+    .card-icon img{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
 
     
 }
@@ -216,7 +221,11 @@ h2 {
     .col-9 {
         width: 60%;
     }
-        
+    
+    .card-icon img{
+        height: 2rem;
+        width: 2rem;
+    }
 }
 
 
@@ -500,10 +509,10 @@ h2 {
     width: 4rem; */
 }
 
-.card-icon img{
-    height: 2rem;
-    width: 2rem;
-}
+/* .card-icon img{
+    height: 1.5rem;
+    width: 1.5rem;
+} */
 
 .card-text {
     display: flex;
