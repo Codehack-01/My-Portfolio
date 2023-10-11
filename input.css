@@ -530,3 +530,25 @@ h2 {
     /* height: 160px; */
     background: linear-gradient(#0d1117, #ea6045, #ffa28b);
 }
+
+.background2b {
+    background: linear-gradient( #ffa28b,#ea6045, #0d1117);
+}
+
+.skill-color2 {
+    color: #ffa28b;
+}
+
+.icon2-gradient {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100% !important;
+    width: 100% !important;
+    /* height: 30px !important;
+    width: 30px !important; */
+    background-color: #ffa28b;
+    filter: blur(18px);
+    z-index: -1 !important;
+    transform: translateZ(0);
+}
