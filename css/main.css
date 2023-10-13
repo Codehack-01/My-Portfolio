@@ -651,8 +651,16 @@ video {
   height: 1px;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-full {
   height: 100%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .w-full {
@@ -1456,11 +1464,14 @@ h2 {
 }
 
 .img-container2 {
+  /* height: 300px;
+    width: 300px;
+    object-fit: cover; */
 }
 
 .img-container2 img{
   border-radius:0.8rem 0.8rem 0 0;
-  border: 1px solid #374151;
+  /* border: 1px solid #374151; */
   width: auto;
   height: auto;
   -o-object-fit: cover;
@@ -1559,6 +1570,10 @@ h2 {
 
   .md\:p-3 {
     padding: 0.75rem;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
   }
 
   .md\:p-8 {
